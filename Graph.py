@@ -89,6 +89,7 @@ class Graph:
         len_nodes = len(nodes)
         return (2*len_edges)/(len_nodes*(len_nodes-1))
     
+    """IN PROGRESS"""
     def fw_asp(self):
         distance = list(map(lambda i: list(map(lambda j: j, i)), self.g))
         n_vertices = len(self.g)
